@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-image: url(gambar/290636988.jpg);
+}
+
+.nav {
+    margin: auto;
+    text-align: center;
+    font-family: fantasy;
+    width: 100;
+    font-size: 20px;
+}
+
+.nav ul {
+    background: #7f8c8d;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+    padding: 0% 20px;
+}
+
+.nav ul li {
+    float: left;
+}
+
+.nav ul li:hover {
+    background-color: brown;
+}
+
+.nav ul li:hover a {
+    color: palevioletred;
+}
+
+nav ul li a {
+    display: block;
+    padding: 25px;
+    color: darkgoldenrod;
+}
